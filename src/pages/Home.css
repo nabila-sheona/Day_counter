@@ -1,0 +1,272 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #a7c7e7, #cce4f7);
+    color: #2c3e50;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4a90e2;
+}
+
+.types-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Centers the buttons and image horizontally */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-container {
+    margin-right: 30px;
+    /* Adds some space between the image and buttons */
+}
+
+.image-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    /* Align buttons horizontally */
+    justify-content: center;
+    align-items: center;
+}
+
+.count-button,
+.find-day-button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+   
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.count-button:hover,
+.find-day-button:hover {
+    background-color: #357ab7;
+    transform: scale(1.05);
+}
+
+.date-picker-wrapper {
+    display: flex;
+    gap:500px;
+    align-items: center;
+}
+.date-section,
+.date-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.date-section h2,
+.date-selection h2 {
+    font-size: 1.2rem;
+    color: #4a90e2;
+}
+
+.result-container {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    /* Centers text inside */
+}
+
+
+.result-container h3,
+.day-of-week h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.n-days-container input {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    width: 60%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.calculated-date {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4a90e2;
+}
+
+.find-day-button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.find-day-button:hover {
+    background-color: #357ab7;
+    transform: scale(1.05);
+}
+
+.button-group button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #357ab7;
+    transform: scale(1.05);
+}
+
+.types-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.type-section {
+    flex: 1;
+    margin: 0 15px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.type-section h2 {
+    font-size: 1.5rem;
+    color: #4a90e2;
+    margin-bottom: 15px;
+}
+
+.type-section p {
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+
+/* Main container for the entire content */
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* Align the top edges of image, buttons, and white part */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 30px;
+    /* Space between the image, buttons, and white part */
+}
+
+/* Container for the buttons and active section */
+.buttons-and-active-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack buttons on top of the active section */
+    flex: 1;
+    /* Makes it take up remaining space */
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    /* Align buttons horizontally */
+    margin-bottom: 20px;
+}
+
+.button-group button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #357ab7;
+    transform: scale(1.05);
+}
+
+/* White part (active content) styling */
+.active-content {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    flex: 1;
+    /* Ensures it adjusts size with the image */
+}
+
+/* Image container styling */
+.image-container {
+    margin-right: 30px;
+    /* Space between image and other elements */
+}
+
+.image-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
