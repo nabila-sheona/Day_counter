@@ -26,35 +26,12 @@ Find Day of the Week
 Calculate Date After N Days
 
 How to Use
-Clone the repository:
+You can always check the website!!!!!!!!!!(link added in descrption box)
+or:
 
-bash
-Copy code
-git clone https://github.com/your-username/time-calculator.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd time-calculator
-Install dependencies:
-
-bash
-Copy code
 npm install
-Run the development server:
-
-bash
-Copy code
 npm start
+
 Open your browser and go to http://localhost:3000 to view the application.
 
-Folder Structure
-src/:
-Home.js: Main component handling the time calculator logic and user interactions.
-Home.css: Styling for the app's components.
-Technologies Used
-React.js: Used for building the user interface and handling state.
-React Datepicker: For date selection.
-CSS: For styling the components and layout.
-This should make your README.md file informative and user-friendly for anyone viewing your project on GitHub!
 This structure provides a clear, user-friendly overview of your project, its functionality, and how to use it. You can also add or modify the URLs for your screenshots and GitHub repository where needed!
