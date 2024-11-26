@@ -29,7 +29,7 @@ This project was developed to practice React.js, state management, and date mani
 
 ### Home Screen
 
-![Home Screen](1.jpeg)
+![Home Screen](../1.jpeg)
 
 ### Calculate Date Difference
 
