@@ -1,6 +1,3 @@
-Here's how to structure your `README.md` to include the new screenshots and information for your Time Calculator React application:
-
-````markdown
 # Time Calculator - React Application
 
 A time calculator application built with React, designed to perform key date-related calculations. It allows users to:
@@ -29,47 +26,46 @@ This project was developed to practice React.js, state management, and date mani
 
 ### Home Screen
 
-![Home Screen](D:\junior\3-1\xtra-selfstudy\fundatecalc\1.jpeg)
+![Home Screen](https://github.com/nabila-sheona/Day_counter/blob/main/images/1.jpeg)
 
 ### Calculate Date Difference
 
-![Calculate Date Difference](D:\junior\3-1\xtra-selfstudy\fundatecalc\2.jpeg)
+![Calculate Date Difference](https://github.com/nabila-sheona/Day_counter/blob/main/images/2.jpeg)
 
 ### Find Day of the Week
 
-![Find Day of the Week](public/3.jpeg)
+![Find Day of the Week](https://github.com/nabila-sheona/Day_counter/blob/main/images/3.jpeg)
 
 ### Calculate Date After N Days
 
-![Calculate Date After N Days](public/4.jpeg)
+![Calculate Date After N Days](https://github.com/nabila-sheona/Day_counter/blob/main/images/4.jpeg)
 
 ## How to Use
 
 You can always check the website [here](day-counter-509e.onrender.com) or follow the steps below to run it locally:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/nabila-sheona/Day_counter.git
    ```
-````
 
 2. Navigate to the project directory:
+
    ```bash
    cd time-calculator
    ```
+
 3. Install dependencies:
+
    ```bash
    npm install
    ```
+
 4. Start the development server:
+
    ```bash
    npm start
    ```
+
 5. Open your browser and go to `http://localhost:3000` to view the application.
-
-This structure provides a clear, user-friendly overview of your project, its functionality, and how to use it. You can also add or modify the URLs for your screenshots and GitHub repository where needed!
-
-```
-
-Just replace the placeholder links and paths with the actual ones relevant to your project, and this `README.md` will be ready to use.
-```
