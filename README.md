@@ -30,14 +30,15 @@ This project was developed to practice React.js, state management, and date mani
 
 ### Calculate Date Difference
 
-![Calculate Date Difference](https://github.com/nabila-sheona/Day_counter/blob/main/2.jpeg)
+![Calculate Date Difference](https://github.com/nabila-sheona/Day_counter/blob/main/5.jpeg)
 
 ### Find Day of the Week
 
-![Find Day of the Week](https://github.com/nabila-sheona/Day_counter/blob/main/3.jpeg)
+![Find Day of the Week](https://github.com/nabila-sheona/Day_counter/blob/main/2.jpeg)
 
 ### Calculate Date After N Days
 
+![Calculate Date After N Days](https://github.com/nabila-sheona/Day_counter/blob/main/3.jpeg)
 ![Calculate Date After N Days](https://github.com/nabila-sheona/Day_counter/blob/main/4.jpeg)
 
 ## How to Use
