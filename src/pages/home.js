@@ -35,6 +35,7 @@ const Home = () => {
       years: diffYears,
       months: diffMonths,
       days: diffRemainingDays,
+      onlydays: diffDays,
     });
   };
 
@@ -106,12 +107,14 @@ const Home = () => {
                   Calculate diffTime
                 </button>
                 {result && (
-                  <div className="result-container">
+                  <div className="day-of-week">
                     <h3>Results</h3>
                     <p>
                       {result.years} Years, {result.months} Months,{" "}
                       {result.days} Days
                     </p>
+                    <h3>Days Count</h3>
+                    <p> {result.onlydays} Days</p>
                   </div>
                 )}
               </div>
