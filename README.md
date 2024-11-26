@@ -29,27 +29,27 @@ This project was developed to practice React.js, state management, and date mani
 
 ### Home Screen
 
-![Home Screen](../1.jpeg)
+![Home Screen](public/1.jpeg)
 
 ### Calculate Date Difference
 
-![Calculate Date Difference](2.jpeg)
+![Calculate Date Difference](public/2.jpeg)
 
 ### Find Day of the Week
 
-![Find Day of the Week](3.jpeg)
+![Find Day of the Week](public/3.jpeg)
 
 ### Calculate Date After N Days
 
-![Calculate Date After N Days](4.jpeg)
+![Calculate Date After N Days](public/4.jpeg)
 
 ## How to Use
 
-You can always check the website [here](https://your-website-link.com) or follow the steps below to run it locally:
+You can always check the website [here](day-counter-509e.onrender.com) or follow the steps below to run it locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/time-calculator.git
+   git clone https://github.com/nabila-sheona/Day_counter.git
    ```
 ````
 
