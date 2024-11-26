@@ -29,11 +29,11 @@ This project was developed to practice React.js, state management, and date mani
 
 ### Home Screen
 
-![Home Screen](public/1.jpeg)
+![Home Screen](D:\junior\3-1\xtra-selfstudy\fundatecalc\1.jpeg)
 
 ### Calculate Date Difference
 
-![Calculate Date Difference](public/2.jpeg)
+![Calculate Date Difference](D:\junior\3-1\xtra-selfstudy\fundatecalc\2.jpeg)
 
 ### Find Day of the Week
 
